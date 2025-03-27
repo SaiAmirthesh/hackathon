@@ -1,6 +1,5 @@
 ## **SCA Shield: AI-Powered Side-Channel Attack Prevention** 🛡️
 
-![Demo](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=SCA+Shield+Demonstration)
 
 ## **Overview**
 A complete system for detecting and preventing **Side-Channel Attacks (SCAs)** on cryptographic hardware using AI-generated noise. This project includes:
