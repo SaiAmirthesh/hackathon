@@ -33,14 +33,12 @@ pip install -r requirements.txt
 ### **Run the System**
 1. **Start Backend** (Flask API):
    ```bash
-   cd backend
-   python server.py
+   python appn.py
    ```
 
 2. **Start Frontend** (Streamlit UI):
    ```bash
-   cd frontend
-   streamlit run app.py
+   streamlit run fappn.py
    ```
 
 3. Access the UI at: `http://localhost:8501`
@@ -67,7 +65,7 @@ pip install -r requirements.txt
 ### **3. Dataset Tools**
 - Generate synthetic traces with configurable leaks:
   ```bash
-  python datasets/generate_dataset.py
+  python gendata.py
   ```
 
 ---
@@ -97,14 +95,11 @@ pip install -r requirements.txt
 ## **🧑‍💻 Development**
 ### **File Structure**
 ```
-sca-shield/
-├── backend/               # Flask API
-│   ├── appn.py          # Main API
-│   ├── modeln.py           # AI noise models
-├── frontend/              # Streamlit UI
-│   ├── fappn.py             # Main interface
-├── datasets/              # Sample data
-│   ├── gendata.py # Trace generator
+sca-shield/              
+├── appn.py          
+├── modeln.py          
+├── fappn.py            
+├── gendata.py 
 ```
 
 ### **Customization**
